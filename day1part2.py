@@ -1,3 +1,4 @@
+#output of 6483 was too high
 currentPosition=50
 password=0
 def turn(amount, direction):
