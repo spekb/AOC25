@@ -19,11 +19,13 @@ def turn(amount, direction):
             amount-=1
             if(currentPosition==0):
                 currentPosition=99
-                password+=1
                 # print("pw")
 
             else:
                 currentPosition-=1
+            if(currentPosition==0):
+                password+=1
+
 
     # print(currentPosition)
     return currentPosition
